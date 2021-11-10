@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        app:cardCornerRadius="20dp"
+        app:cardMaxElevation="20dp"
+        app:cardPreventCornerOverlap="true"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_place"
+                android:src="@drawable/place_3"
+                android:background="@drawable/ic_border"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/name_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Mc Donald's - Thai Ha"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/image_place" />
+
+            <TextView
+                android:id="@+id/detail_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="western cuisine, Fast Food, Burger"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#7A7A7A"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/name_place" />
+
+            <RatingBar
+                android:id="@+id/rating_place"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="5"
+                android:stepSize="0.5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/RatingBar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_place" />
+
+            <TextView
+                android:id="@+id/distance_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_bg_gray"
+                app:layout_constraintRight_toLeftOf ="@id/time_place"
+                app:layout_constraintTop_toBottomOf="@+id/detail_place"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="4dp"
+                android:text="300m"
+                android:textColor="@color/pink_text"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_bg_gray"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/detail_place"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="4dp"
+                android:text="28'"
+                android:textColor="@color/pink_text"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textStyle="bold" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</layout>

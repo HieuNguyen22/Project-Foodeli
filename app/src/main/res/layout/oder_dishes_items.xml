@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/orderItems"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dish"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/qty_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qty"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+</layout>

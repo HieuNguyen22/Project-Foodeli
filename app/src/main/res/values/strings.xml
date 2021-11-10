@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">FoodOrder</string>
+    <string name="title_activity_test">test</string>
+    <string name="channel_name">channel1</string>
+    <string name="channel_description">This is channel1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    ---------------------LOGIN----------------------
+    <string name="sign_in">Sign in</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sign_in_with_social">Sign in with Social or fill the form to continue.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="policy">By Signing up, you agree to the Terms of Service and Privacy Policy</string>
+    <string name="create_acc">Sign up</string>
+
+    ---------------------REGISTER----------------------
+    <string name="create_new_acc">Create New Account</string>
+    <string name="text">Sign up with your username and password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="sign_up">Sign up</string>
+    <string name="fullname">Fullname</string>
+    ---------------------HOME----------------------
+    <string name="delivery">Delivery to</string>
+    <string name="location">Hanoi, Vietnam</string>
+    <string name="search">Search for dish or restaurant</string>
+    <string name="popular">Popular Near You</string>
+    <string name="categories"> Explore Categories</string>
+    <string name="recommended">Recommended</string>
+    <string name="discount">Discount</string>
+    <string name="view_more">View more</string>
+    <string name="show_all">Show all</string>
+
+    ---------------------NAVIGATION----------------------
+    <string name="home">Home</string>
+    <string name="favor">Favorite</string>
+    <string name="cart">Cart</string>
+    <string name="chat">Chat</string>
+    <string name="notify">Notifications</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_order_list_tab">OrderListTab</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
