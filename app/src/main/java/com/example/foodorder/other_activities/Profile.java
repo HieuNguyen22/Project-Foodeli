@@ -223,6 +223,7 @@ public class Profile extends AppCompatActivity {
                 StorageReference mStoreRef = FirebaseStorage.getInstance().getReference();
                 StorageReference fileRef = mStoreRef.child(path);
                 fileRef.putFile(imageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+
                     @Override
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
 //                         UPDATE URL TO DATABASE

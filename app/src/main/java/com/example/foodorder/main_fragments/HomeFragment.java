@@ -71,7 +71,8 @@ public class HomeFragment extends Fragment {
 
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentHomeBinding.inflate(inflater,container,false);
+//        binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
 //        firebaseDatabase = FirebaseDatabase.getInstance();
