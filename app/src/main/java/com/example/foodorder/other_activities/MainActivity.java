@@ -36,11 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
 
         // AUTOMATIC SIGN IN
-//        if(fAuth.getCurrentUser() != null){
-//            Intent intent = new Intent(getApplicationContext(),test.class);
-//            startActivity(intent);
-//            finish();
-//        }
+        if(fAuth.getCurrentUser() != null){
+            Intent intent = new Intent(getApplicationContext(), NavigateActivity.class);
+            startActivity(intent);
+            finish();
+        }
 
         //CREATE ACCOUNT
         binding.createAcount.setOnClickListener(new View.OnClickListener() {
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String user = binding.email.getText().toString().trim();
                 String pass = binding.password.getText().toString().trim();
-                String mail = user +"@gmail.com";
+                String mail = user;
 
                 if(user.isEmpty() == true) {
                     binding.email.setError("Email is required!");
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
 
-                            Intent intent = new Intent(getApplicationContext(), test.class);
+                            Intent intent = new Intent(getApplicationContext(), NavigateActivity.class);
                             intent.putExtra("user",user);
                             startActivity(intent);
                         }

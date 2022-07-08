@@ -46,7 +46,7 @@
         <activity
             android:name=".other_activities.Profile"
             android:exported="true"
-            android:parentActivityName=".other_activities.test" />
+            android:parentActivityName=".other_activities.NavigateActivity" />
         <activity
             android:name=".other_activities.CheckOutActivity"
             android:exported="true" />
@@ -63,7 +63,7 @@
             android:name=".other_activities.Register"
             android:exported="true" />
         <activity
-            android:name=".other_activities.test"
+            android:name=".other_activities.NavigateActivity"
             android:exported="true"
             android:label="@string/title_activity_test" />
         <activity

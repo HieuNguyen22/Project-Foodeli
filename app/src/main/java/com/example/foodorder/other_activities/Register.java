@@ -79,6 +79,12 @@ public class Register extends AppCompatActivity {
                     return;
                 }
 
+                if(!android.util.Patterns.EMAIL_ADDRESS.matcher(mail).matches()) {
+                    binding.email.setError("Please fill in your email!");
+                    binding.progressBar.setVisibility(View.INVISIBLE);
+                    return;
+                }
+
                 // CHECK PASSWORD
                 if(pass.isEmpty() == true) {
                     binding.password.setError("Password is required!");

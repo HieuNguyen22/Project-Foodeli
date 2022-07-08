@@ -33,9 +33,11 @@ public class SplashScreen extends AppCompatActivity {
         logo = findViewById(R.id.logo);
         slogan = findViewById(R.id.slogan);
 
+        // Set animations for views
         logo.setAnimation(topAnim);
         slogan.setAnimation(bottomAnim);
 
+        // Change activity after 4s
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

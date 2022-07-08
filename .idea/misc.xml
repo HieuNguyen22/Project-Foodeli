@@ -6,12 +6,16 @@
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/drawable/profile_bg.xml" value="0.2355" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_dishes.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_maps.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_profile.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_register.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_splash_screen.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_tab_order.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/activity_test.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/chat_message.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/fragment_chat.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/fragment_dish_list.xml" value="0.38697916666666665" />
+        <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/fragment_favorite.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/fragment_home.xml" value="0.4597772277227723" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/fragment_on_delivery.xml" value="0.38697916666666665" />
         <entry key="..\:/AndroidProjects/FoodOrder/app/src/main/res/layout/oder_dishes_items.xml" value="0.38697916666666665" />
